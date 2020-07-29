@@ -11,6 +11,7 @@
 		F1957C9724CF370700E0A348 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1957C9624CF370700E0A348 /* ContentView.swift */; };
 		F1957C9924CF370900E0A348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1957C9824CF370900E0A348 /* Assets.xcassets */; };
 		F1957C9C24CF370900E0A348 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1957C9B24CF370900E0A348 /* Preview Assets.xcassets */; };
+		F1957CA424CF382100E0A348 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1957CA324CF382100E0A348 /* TimerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F1957C9824CF370900E0A348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1957C9B24CF370900E0A348 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1957C9D24CF370900E0A348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1957CA324CF382100E0A348 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				F1957C9424CF370700E0A348 /* SS_Experiment_2App.swift */,
 				F1957C9624CF370700E0A348 /* ContentView.swift */,
+				F1957CA524CF382F00E0A348 /* Helpers */,
 				F1957C9824CF370900E0A348 /* Assets.xcassets */,
 				F1957C9D24CF370900E0A348 /* Info.plist */,
 				F1957C9A24CF370900E0A348 /* Preview Content */,
@@ -67,6 +70,14 @@
 				F1957C9B24CF370900E0A348 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1957CA524CF382F00E0A348 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F1957CA324CF382100E0A348 /* TimerManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1957CA424CF382100E0A348 /* TimerManager.swift in Sources */,
 				F1957C9724CF370700E0A348 /* ContentView.swift in Sources */,
 				F1957C9524CF370700E0A348 /* SS_Experiment_2App.swift in Sources */,
 			);
